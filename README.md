@@ -1,6 +1,8 @@
 ## Kanban board
 Live url: [https://kanban-ui-six.vercel.app/](https://kanban-ui-six.vercel.app/)
 
+The website might take a few seconds to load the first time, as the backend is hosted on Render, which puts the server to sleep after periods of inactivity.
+
 React-based frontend for the Kanban board application with real-time updates and drag-and-drop functionality.
 
 ## Features
