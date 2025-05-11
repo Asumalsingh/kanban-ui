@@ -52,9 +52,9 @@ export default function Column({ column }: ColumnProps) {
           <h3 className="text-sm font-semibold truncate">{column.title}</h3>
           <button
             onClick={handleOpenNewTaskModal}
-            className="h-6 w-6 rounded hover:bg-gray-200 flex items-center justify-center transition-colors"
+            className="h-6 text-sm p-1 cursor-pointer rounded bg-gray-100 hover:bg-gray-200 flex items-center justify-center transition-colors"
           >
-            <Plus className="h-4 w-4" />
+            <Plus className="h-4 w-4" /> Task
           </button>
         </div>
       </div>
